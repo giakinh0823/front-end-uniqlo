@@ -195,7 +195,9 @@ span {
                 -webkit-tap-highlight-color: transparent;
                 text-transform: none;
                 overflow: visible;
-
+                &:hover svg{
+                    fill: #1b1b1bd3;
+                }
                 svg {
                     display: inline-block;
                     width: 1.5rem;

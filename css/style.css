@@ -59,7 +59,7 @@ a:focus, button:focus, input:focus, select:focus, textarea:focus {
 .label--primary {
   font-family: Roboto, sans-serif;
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: .025rem; }
 
@@ -95,8 +95,14 @@ a:focus, button:focus, input:focus, select:focus, textarea:focus {
     margin-left: calc(1.4rem - .01px);
     margin-right: calc(1.4rem - .01px);
     height: 6.8rem; }
+  .header__logo {
+    display: flex;
+    align-items: center; }
+    .header__logo--img {
+      width: 100%; }
   .header__list {
-    display: flex; }
+    display: flex;
+    margin-left: 2rem; }
   .header__left {
     display: flex;
     margin-right: auto; }
@@ -107,17 +113,21 @@ a:focus, button:focus, input:focus, select:focus, textarea:focus {
     text-decoration: none;
     position: relative;
     color: #212529;
-    padding: 1.2rem 1.25rem;
+    padding: 1rem 1rem;
     display: inline-block;
     position: relative; }
+    .header__category--link .header-span {
+      font-size: 1.5rem;
+      padding: 0;
+      margin: 0; }
     .header__category--link::after {
       content: "";
-      width: 80%;
-      height: 0.23rem;
+      width: 70%;
+      height: 0.20rem;
       background-color: #212529;
       position: absolute;
       top: 80%;
-      left: 10%;
+      left: 15%;
       visibility: hidden; }
     .header__category--link:hover {
       color: #212529; }
@@ -411,6 +421,8 @@ span {
         -webkit-tap-highlight-color: transparent;
         text-transform: none;
         overflow: visible; }
+        .caurosel__list .caurosel__link__img--container .caurosel__img--heart:hover svg {
+          fill: #1b1b1bd3; }
         .caurosel__list .caurosel__link__img--container .caurosel__img--heart svg {
           display: inline-block;
           width: 1.5rem;
