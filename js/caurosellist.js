@@ -1,8 +1,12 @@
+
+
+
+
 var owl = $('.owl-carousel');
 owl.owlCarousel({
   items: 4,
   loop: true,
-  margin: 20,
+  margin: 30,
   responsiveClass: true,
   URLhashListener:true,
   lazyLoadEager:true,
@@ -35,6 +39,7 @@ owl.owlCarousel({
 //   }
 //   e.preventDefault();
 // });
+
 
 
 

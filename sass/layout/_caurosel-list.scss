@@ -171,6 +171,9 @@ span {
                 .caurosel__img--image {
                     width: 100%;
                     height: 290px;
+                    &__style{
+                        height: 400px;
+                    }
                 }
             }
 
